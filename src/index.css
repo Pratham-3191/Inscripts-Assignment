@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+.editing-cell {
+  white-space: normal !important;
+  overflow: visible !important;
+  text-overflow: unset !important;
+  min-width: 100px !important;
+  max-width: 1000px !important;
+   box-sizing: border-box;
+    outline: none;
+    border: 1px solid #6C8B70; /* Tailwind's gray-300 */
+  position: relative;
+  z-index: 10;
+  background-color: #fffef0; /* optional: highlight while editing */
+}
+
